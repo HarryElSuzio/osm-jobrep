@@ -21,9 +21,20 @@ AddEventHandler('osm:server:incjobrep', function(amount)
 			Player.Functions.SetMetaData("jobrep1", newjobrep)
 		end 
 
-		Player.Functions.Notify('You Earned Job '..amount..' Reputation Points ', 'success')
+		TriggerClientEvent("QBCore:Notify", src, 'You Earn '..amount..' Job Reputation', "Success", 4000)
 
 	end
+end)
+
+QBCore.Commands.Add("jobrep", "Current Job Reputation", {}, false, function(source, args)    
+	local src = source
+	local Player = QBCore.Functions.GetPlayer(src)
+
+	if Player ~= nil then
+		jobrep = Player.PlayerData.metadata["jobrep1"]
+		TriggerClientEvent("QBCore:Notify", src, 'Current Job Reputation : '..jobrep..'', "Success", 5000)
+	end 
+
 end)
 
 -- QBCore.Commands.Add("testjobrep", "Money in Cash", {}, false, function(source, args)
