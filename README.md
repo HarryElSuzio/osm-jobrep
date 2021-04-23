@@ -5,7 +5,7 @@
 - Customizable events to Award Rep whenever Required 
 - Easy-to-use with a Detailed Guide included in the README (below). 
 
-##### [PREVIEW](https://cdn.discordapp.com/attachments/829799717691981854/835178218998726726/unknown.png)
+#### [PREVIEW](https://cdn.discordapp.com/attachments/829799717691981854/835178218998726726/unknown.png) - [DISCORD](https://discord.gg/jrNxkpVaJU)
 ## SETUP INSTRUCTIONS 
 Please take backup of files that you change. I am not responsible for any damage you do to your files/server. 
 **You need basic knowledge of QBUS Framework, and basic IDEA of what events trigger when, and on what conditions. Though I can't help every single one who gets stuck, you can expect help on my DISCORD SERVER. **
