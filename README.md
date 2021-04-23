@@ -49,7 +49,7 @@ AddEventHandler('police:server:JailPlayer', function(playerId, time)
                 ["date"] = currentDate
             })
             TriggerClientEvent("police:client:SendToJail", OtherPlayer.PlayerData.source, time)
-            TriggerClientEvent('osm:server:jobrep', source, 10) -- EVENT FOR REP TRIGGERED
+            TriggerClientEvent('osm:client:incjobrep', source, 10) -- EVENT FOR REP TRIGGERED
             TriggerClientEvent('QBCore:Notify', src, "You sent the person to prison for "..time.." months")
         end
     end
