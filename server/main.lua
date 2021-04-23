@@ -9,16 +9,16 @@ AddEventHandler('osm:server:incjobrep', function(amount)
 	
 	if Player ~= nil then
 
-		if Player.PlayerData.metadata["jobrep"] == nil then
-			Player.PlayerData.metadata["jobrep"] = 0
+		if Player.PlayerData.metadata["jobrep1"] == nil then
+			Player.PlayerData.metadata["jobrep1"] = 0
 		end
 		
 		if amount ~= nil and amount > 0 then 
-			newjobrep = Player.PlayerData.metadata["jobrep"] + amount
-			Player.Functions.SetMetaData("jobrep", newjobrep)
+			newjobrep = Player.PlayerData.metadata["jobrep1"] + amount
+			Player.Functions.SetMetaData("jobrep1", newjobrep)
 		else
-			newjobrep = Player.PlayerData.metadata["jobrep"] + 1
-			Player.Functions.SetMetaData("jobrep", newjobrep)
+			newjobrep = Player.PlayerData.metadata["jobrep1"] + 1
+			Player.Functions.SetMetaData("jobrep1", newjobrep)
 		end 
 
 		Player.Functions.Notify('You Earned Job '..amount..' Reputation Points ', 'success')
@@ -26,3 +26,6 @@ AddEventHandler('osm:server:incjobrep', function(amount)
 	end
 end)
 
+-- QBCore.Commands.Add("testjobrep", "Money in Cash", {}, false, function(source, args)
+--     TriggerClientEvent('osm:client:incjobrep', source, 10)
+-- end)
