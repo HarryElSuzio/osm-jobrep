@@ -5,8 +5,8 @@
 - Customizable events to Award Rep whenever Required 
 - Easy-to-use with a Detailed Guide included in the README (below). 
 
-### [PREVIEW](https://cdn.discordapp.com/attachments/829799717691981854/835178218998726726/unknown.png)
-### [DISCORD](https://discord.gg/jrNxkpVaJU)
+### [PREVIEW IMAGE](https://cdn.discordapp.com/attachments/829799717691981854/835178218998726726/unknown.png)
+### [DISCORD SUPPORT SERVER](https://discord.gg/jrNxkpVaJU)
 
 
 ## SETUP INSTRUCTIONS 
