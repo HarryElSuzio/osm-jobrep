@@ -1,0 +1,5 @@
+Config = {}
+
+-- AFTER 60 MINUTES - THIS MUCH POINTS WILL BE REWARDED
+Config.TimeBasedRep = 5
+
