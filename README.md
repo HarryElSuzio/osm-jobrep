@@ -17,6 +17,8 @@ Please take backup of files that you change. I am not responsible for any damage
 
 - Give the server a restart. Spot for errors in scripts, cuz their is high probablility you might have done something wrong. 
 
+---
+
 ### EXAMPLES for REFERENCE
 
 **If you want a POLICE OFFICER to earn some REP on JAILING a person, here is a small example on how you can do it. (For QBUS POLICE SCRIPT)**
