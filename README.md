@@ -1,14 +1,14 @@
 # OSM x QBUS | JOB REPUTATION SYSTEM | Dynamic System for JOB EMPLOYEES to Earn Reputation based on how actively they perform their JOB. 
 
-### SETUP INSTRUCTIONS 
+## SETUP INSTRUCTIONS 
 Please take backup of files that you change. I am not responsible for any damage you do to your files/server. 
 **You need basic knowledge of QBUS Framework, and basic IDEA of what events trigger when, and on what conditions. Though I can't help every single one who gets stuck, you can expect help on my DISCORD SERVER. 
 
-**CORE CHANGES**
+**CORE CHANGE INSTRUCTIONS**
 - Go to the Core -> Server Side Folder -> Player.lua
 - Paste `	PlayerData.metadata["jobrep"] = PlayerData.metadata["jobrep"] ~= nil and PlayerData.metadata["jobrep"] or 0` with other META DATA LINES (Around line 60)
 
-**SCRIPT FUNCTIONS**
+**SCRIPT FUNCTIONS / TRIGGERS**
 - Script should be ensured/started in the resources.cfg
 - **Where ever you want JOB REPUTATION to be added to player, just go in that JOB CLIENT EVENT and use these as required.**
 
