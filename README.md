@@ -12,8 +12,8 @@ Please take backup of files that you change. I am not responsible for any damage
 - Script should be ensured/started in the resources.cfg
 - **Where ever you want JOB REPUTATION to be added to player, just go in that JOB CLIENT EVENT and use these as required.**
 
- **FOR CLIENT-SIDE JOB EVENTS - `TriggerServerEvent('osm:server:jobrep', repvalue)` where `repvalue` is the amount of rep you want to ADD to the EXISTING JOBREP. 
- FOR SERVER-SIDE JOB EVENTS - `TriggerClientEvent('osm:server:jobrep', source, repvalue)` where `repvalue` is the amount of rep you want to ADD to the EXISTING JOBREP. **
+ **FOR CLIENT-SIDE JOB EVENTS - `TriggerServerEvent('osm:server:incjobrep', repvalue)` where `repvalue` is the amount of rep you want to ADD to the EXISTING JOBREP. 
+ FOR SERVER-SIDE JOB EVENTS - `TriggerClientEvent('osm:server:incjobrep', source, repvalue)` where `repvalue` is the amount of rep you want to ADD to the EXISTING JOBREP. **
 
 - Give the server a restart. Spot for errors in scripts, cuz their is high probablility you might have done something wrong. 
 
