@@ -10,7 +10,7 @@
 
 ## SETUP INSTRUCTIONS 
 Please take backup of files that you change. I am not responsible for any damage you do to your files/server. 
-**You need basic knowledge of QBUS Framework, and basic IDEA of what events trigger when, and on what conditions. Though I can't help every single one who gets stuck, you can expect help on my DISCORD SERVER. **
+**You need basic knowledge of QBUS Framework, and basic IDEA of what events trigger when, and on what conditions. Though I can't help every single one who gets stuck, you can expect help on my DISCORD SERVER.**
 
 **CORE CHANGE INSTRUCTIONS**
 - Go to the Core -> Server Side Folder -> Player.lua
