@@ -28,7 +28,7 @@ end)
 Citizen.CreateThread(function()
 	while true do
 
-		Citizen.Wait(60 * 60000)
+		Citizen.Wait(Config.Time * 60000)
 
 		if Config.TimeBasedRep ~= 0 then 
 	
